@@ -1,0 +1,565 @@
+
+@media (max-width:1600px){
+    @mixin boxsize1 {
+        display: flex;
+        height: 100px;
+        width: 15%;
+        background-color: rgb(211, 211, 211);
+        margin-left: 1px;
+    }
+    @mixin boxsize2 {
+        display: flex;
+        height: 240px;
+        width: 15%;
+        background-color: rgb(211, 211, 211);
+        margin-left: 1px;
+    }
+        
+    @mixin boxsize3 {
+        display: flex;
+        height: 140px;
+        width: 15%;
+        background-color: rgb(211, 211, 211);
+        margin-left: 1px;
+    }
+    @mixin boxsize4 {
+        display: flex;
+        height: 120px;
+        width: 15%;
+        background-color: rgb(211, 211, 211);
+        margin-left: 1px;
+    }
+    @mixin boxsize5 {
+        display: flex;
+        height: 90px;
+        width: 15%;
+        background-color: rgb(211, 211, 211);
+        margin-left: 1px;
+    }
+    
+    @mixin space {
+        display: flex;
+        justify-content: space-between; 
+        
+        
+    }
+        
+    
+    body{
+        font-family: 'Hind', sans-serif;
+        background-color: rgb(45, 127, 221);
+        margin:0;
+        padding: 0px;
+        color: white;
+        padding-left: 6%;
+        padding-right:6% ;
+        head{
+            display: flex;
+        }
+        
+        h4{
+            font-size: 120%;
+        }
+
+        h6{
+            font-weight: 100;
+            font-size: 5em;
+            margin: 0;
+        }
+            
+        .chart p{
+            font-size: 180%;
+            margin-bottom: 0;
+            color: lightgray;
+        }
+        .box{
+            margin-top:50px;
+            display: flex;
+            // background-color: yellow;
+            height: 320px;
+            align-items: flex-end;
+        }
+        .box22,.box4,.box8,.box12,.box16,.box20{
+            @include boxsize1
+        }
+        .box2,.box6,.box10,.box14,.box17,.box19{
+            @include boxsize2
+        }
+        .box3,.box5,.box7,.box13,.box16,.box18{
+            @include boxsize3
+        }
+        .box15,.box9,.box21,.box23,.box27,.box26{
+            @include boxsize4
+        }
+        .box22,.box1,.box25{
+            @include boxsize5
+        }
+    
+        p{
+            font-size: 1.4em;
+        }
+    
+         .text{
+            margin-top: 100px;
+            margin-bottom: 0px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .text p{
+            
+            font-size: 1.8em;
+            margin-bottom: 0px;
+            display: flex;
+            
+        }
+    
+        .activ-pages{
+            margin: 0px;
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .pages p{
+            margin: 0px;
+            font-size: 1.8em;
+        }
+    
+        .p1, .p2, .p3, .p4, .p5 {
+            @include space()
+        }
+    
+        footer h6{
+            margin-bottom: 0;
+            justify-content: flex-end;
+            display: flex;
+            font-size: 1.5em;
+            text-transform: uppercase;
+        }
+        
+    }
+}
+
+@media (max-width:1024px){
+    @mixin boxsize1 {
+        display: flex;
+        height: 100px;
+        width: 20%;
+        background-color: rgb(211, 211, 211);
+        margin-left: 1px;
+    }
+    @mixin boxsize2 {
+        display: flex;
+        height: 240px;
+        width: 20%;
+        background-color: rgb(211, 211, 211);
+        margin-left: 1px;
+    }
+        
+    @mixin boxsize3 {
+        display: flex;
+        height: 140px;
+        width: 20%;
+        background-color: rgb(211, 211, 211);
+        margin-left: 1px;
+    }
+    @mixin boxsize4 {
+        display: flex;
+        height: 120px;
+        width: 20%;
+        background-color: rgb(211, 211, 211);
+        margin-left: 1px;
+    }
+    @mixin boxsize5 {
+        display: flex;
+        height: 90px;
+        width: 20%;
+        background-color: rgb(211, 211, 211);
+        margin-left: 1px;
+    }
+    
+    @mixin space {
+        display: flex;
+        justify-content: space-between; 
+        
+        
+    }
+        
+    
+    body{
+        font-family: 'Hind', sans-serif;
+        background-color: rgb(45, 127, 221);
+        margin:0;
+        padding: 0px;
+        color: white;
+        padding-left: 6%;
+        padding-right:6% ;
+        head{
+            display: flex;
+        }
+        
+        h4{
+            font-size: 220%;
+        }
+
+        h6{
+            font-weight: 100;
+            font-size: 10em;
+            margin: 0;
+        }
+            
+        .chart p{
+            font-size: 180%;
+            margin-bottom: 0;
+            color: lightgray;
+        }
+        .box{
+            margin-top:0px;
+            display: flex;
+            // background-color: yellow;
+            height: 320px;
+            align-items: flex-end;
+        }
+        .box22,.box4,.box8,.box12,.box16,.box20{
+            @include boxsize1
+        }
+        .box2,.box6,.box10,.box14,.box17,.box19{
+            @include boxsize2
+        }
+        .box3,.box5,.box7,.box13,.box16,.box18{
+            @include boxsize3
+        }
+        .box15,.box9,.box21,.box23,.box27,.box26{
+            @include boxsize4
+        }
+        .box22,.box1,.box25{
+            @include boxsize5
+        }
+    
+        p{
+            font-size: 1.4em;
+        }
+    
+         .text{
+            margin-top: 28px;
+            margin-bottom: 0px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .text p{
+            
+            font-size: 1.8em;
+            margin-bottom: 0px;
+            display: flex;
+            
+        }
+    
+        .activ-pages{
+            margin: 0px;
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .pages p{
+            margin: 0px;
+            font-size: 1.8em;
+        }
+    
+        .p1, .p2, .p3, .p4, .p5 {
+            @include space()
+        }
+    
+        footer h6{
+            margin-bottom: 0;
+            justify-content: flex-end;
+            display: flex;
+            font-size: 1.5em;
+            text-transform: uppercase;
+        }
+        
+    }
+}
+@media (max-width:768px){
+
+    @mixin boxsize1 {
+        display: flex;
+        height: 80px;
+        width: 10%;
+        background-color: rgb(211, 211, 211);
+        margin-left: 1px;
+    }
+    @mixin boxsize2 {
+        display: flex;
+        height: 240px;
+        width: 10%;
+        background-color: rgb(211, 211, 211);
+        margin-left: 1px;
+    }
+        
+    @mixin boxsize3 {
+        display: flex;
+        height: 140px;
+        width: 10%;
+        background-color: rgb(211, 211, 211);
+        margin-left: 1px;
+    }
+    @mixin boxsize4 {
+        display: flex;
+        height: 120px;
+        width: 10%;
+        background-color: rgb(211, 211, 211);
+        margin-left: 1px;
+    }
+    @mixin boxsize5 {
+        display: flex;
+        height: 90px;
+        width: 10%;
+        background-color: rgb(211, 211, 211);
+        margin-left: 1px;
+    }
+    
+    @mixin space {
+        display: flex;
+        justify-content: space-between; 
+        
+        
+    }
+        
+    
+    body{
+        font-family: 'Hind', sans-serif;
+        background-color: rgb(45, 127, 221);
+        margin:0;
+        padding: 0px;
+        color: white;
+        padding-left: 6%;
+        padding-right:6% ;
+        head{
+            display: flex;
+        }
+        
+        h4{
+            font-size: 150%;
+        }
+
+        h6{
+            font-weight: 100;
+            font-size: 7em;
+            margin: 0;
+        }
+            
+        .chart p{
+            font-size: 120%;
+            margin-bottom: 0;
+            color: lightgray;
+        }
+        .box{
+            margin-top:0px;
+            display: flex;
+            // background-color: yellow;
+            height: 300px;
+            align-items: flex-end;
+        }
+        .box22,.box4,.box8,.box12,.box16,.box20{
+            @include boxsize1
+        }
+        .box2,.box6,.box10,.box14,.box17,.box19{
+            @include boxsize2
+        }
+        .box3,.box5,.box7,.box13,.box16,.box18{
+            @include boxsize3
+        }
+        .box15,.box9,.box21,.box23,.box27,.box26{
+            @include boxsize4
+        }
+        .box22,.box1,.box25{
+            @include boxsize5
+        }
+    
+        p{
+            font-size: 1.4ssem;
+        }
+    
+         .text{
+            margin-top: 28px;
+            margin-bottom: 0px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .text p{
+            
+            font-size: 1.2em;
+            margin-bottom: 0px;
+            display: flex;
+            
+        }
+    
+        .activ-pages{
+            margin: 0px;
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .pages p{
+            margin: 0px;
+            font-size: 1.1em;
+        }
+    
+        .p1, .p2, .p3, .p4, .p5 {
+            @include space()
+        }
+    
+        footer h6{
+            margin-bottom: 0;
+            justify-content: flex-end;
+            display: flex;
+            font-size: 1em;
+            text-transform: uppercase;
+        }
+        
+    
+    
+    }
+}
+@media (max-width:414px){
+
+
+@mixin boxsize1 {
+    display: flex;
+    height: 80px;
+    width: 12px;
+    background-color: rgb(211, 211, 211);
+    margin-left: 1px;
+}
+@mixin boxsize2 {
+    display: flex;
+    height: 30px;
+    width: 12px;
+    background-color: rgb(211, 211, 211);
+    margin-left: 1px;
+}
+    
+@mixin boxsize3 {
+    display: flex;
+    height: 50px;
+    width: 12px;
+    background-color: rgb(211, 211, 211);
+    margin-left: 1px;
+}
+@mixin boxsize4 {
+    display: flex;
+    height: 50px;
+    width: 12px;
+    background-color: rgb(211, 211, 211);
+    margin-left: 1px;
+}
+@mixin boxsize5 {
+    display: flex;
+    height: 50px;
+    width: 12px;
+    background-color: rgb(211, 211, 211);
+    margin-left: 1px;
+}
+
+@mixin space {
+    display: flex;
+    justify-content: space-between; 
+    
+    
+}
+    
+
+body{
+    font-family: 'Hind', sans-serif;
+    background-color: rgb(45, 127, 221);
+    margin:0;
+    padding: 0px;
+    color: white;
+    padding-left: 6%;
+    padding-right:6% ;
+    head{
+        display: flex;
+    }
+    
+    h6{
+        
+        font-weight: 100;
+        font-size: 3.5em;
+        margin: 0;
+    }
+    .chart p{
+        margin-bottom: 0;
+        color: lightgray;
+    }
+    .box{
+        margin-top:0px;
+        display: flex;
+        // background-color: yellow;
+        height: 90px;
+        align-items: flex-end;
+    }
+    .box22,.box4,.box8,.box12,.box16,.box20{
+        @include boxsize1
+    }
+    .box2,.box6,.box10,.box14,.box17,.box19{
+        @include boxsize2
+    }
+    .box3,.box5,.box7,.box13,.box16,.box18{
+        @include boxsize3
+    }
+    .box15,.box9,.box21,.box23,.box27,.box26{
+        @include boxsize4
+    }
+    .box22,.box1,.box25{
+        @include boxsize5
+    }
+
+    p{
+        font-size: 0.6em;
+    }
+
+     .text{
+        margin-top: 28px;
+        margin-bottom: 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .text p{
+        
+        font-size: 0.7em;
+        margin-bottom: 0px;
+        display: flex;
+        
+    }
+
+    .activ-pages{
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .pages p{
+        margin: 0px;
+        font-size: 0.6em;
+    }
+
+    .p1, .p2, .p3, .p4, .p5 {
+        @include space()
+    }
+
+    footer h6{
+        margin-bottom: 0;
+        justify-content: flex-end;
+        display: flex;
+        font-size: 1em;
+        text-transform: uppercase;
+    }
+    
+
+
+}
+}
+    
+    
+
+
+

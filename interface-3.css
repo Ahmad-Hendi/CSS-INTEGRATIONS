@@ -1,0 +1,417 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 60%;
+    height: 480px;
+    display: flex;
+}
+.container .left-side{
+    display: flex;
+    background-image: url('images/Hand.jpg');
+    background-size: cover;
+    width: 90%;
+    margin: 1%
+    
+}
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+}
+
+h1{
+    font-size:1.6em;
+}
+
+h6{
+    font-size: 1em;
+    margin-top: 2px;
+    margin-bottom: 181px;
+    color: gray;
+}
+
+
+footer{
+    display: flex;
+}
+footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    margin: 0;
+    color: gray;
+    font-weight: 100px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+footer h5{
+    margin: 0;
+    font-size: 0.8em;
+}
+
+.img-text{
+    display: flex;
+    
+}
+
+.img-text img{
+    display: flex;
+    width: 20%;
+    border-radius: 100%;
+    
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    font-size:1.2em ;
+    
+}
+
+#icon{
+    display: flex;
+    align-self: flex-end;
+}
+
+
+@media (max-width:993px){   
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+    
+    .container{
+        margin: 0 auto;
+        border: 1px solid black;
+        width: 80%;
+        height: 480px;
+        display: flex;
+    }
+    .container .left-side{
+        display: flex;
+        background-image: url('images/Hand.jpg');
+        background-size: cover;
+        width: 90%;
+        margin: 1%
+        
+    }
+    
+    .right-side{
+        display: flex;
+        flex-direction: column;
+        margin: 1%;
+    }
+    
+    h1{
+        font-size:1.6em;
+    }
+    
+    h6{
+        font-size: 1em;
+        margin-top: 2px;
+        margin-bottom: 181px;
+        color: gray;
+    }
+    
+    
+    footer{
+        display: flex;
+    }
+    footer p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.8em;
+        margin: 0;
+        color: gray;
+        font-weight: 100px;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+    footer h5{
+        margin: 0;
+        font-size: 0.8em;
+    }
+    
+    .img-text{
+        display: flex;
+        
+    }
+    
+    .img-text img{
+        display: flex;
+        width: 20%;
+        border-radius: 100%;
+        
+    }
+    
+    .text{
+        display: flex;
+        flex-direction: column;
+        font-size:1.2em ;
+        
+    }
+    
+    #icon{
+        display: flex;
+        align-self: flex-end;
+    }
+
+}
+
+
+@media (max-width: 416px){
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+    
+    .container{
+        margin: 0 auto;
+        border: 1px solid black;
+        width: 90%;
+        height: 320px;
+        display: flex;
+    }
+    .container .left-side{
+        display: flex;
+        background-image: url('images/Hand.jpg');
+        background-size: cover;
+        width: 60%;
+        margin: 1%
+        
+    }
+    
+    .right-side{
+        display: flex;
+        flex-direction: column;
+        margin: 1%;
+    }
+    
+    h1{
+        font-size:1.2em;
+    }
+    
+    h6{
+        font-size: 1em;
+        margin-top: 1px;
+        margin-bottom: 90px;
+        color: gray;
+    }
+    
+    
+    footer{
+        display: flex;
+    }
+    footer p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.8em;
+        margin: 0;
+        color: gray;
+        font-weight: 100px;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+    footer h5{
+        margin: 0;
+        font-size: 0.8em;
+    }
+    
+    .img-text{
+        display: flex;
+        
+    }
+    
+    .img-text img{
+        display: flex;
+        width: 20%;
+        border-radius: 100%;
+        
+    }
+    
+    .text{
+        display: flex;
+        flex-direction: column;
+        font-size:0.8em ;
+        
+    }
+    
+    #icon{
+        display: flex;
+        align-self: flex-end;
+    }
+}
+
+@media (max-width: 708px){
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+    
+    .container{
+        margin: 0 auto;
+        border: 1px solid black;
+        width: 90%;
+        height: 220px;
+        display: flex;
+    }
+    .container .left-side{
+        display: flex;
+        background-image: url('images/Hand.jpg');
+        background-size: cover;
+        width: 90%;
+        margin: 1%
+        
+    }
+    
+    .right-side{
+        display: flex;
+        flex-direction: column;
+        margin: 0.2%;
+    }
+    
+    h1{
+        font-size: 0.9em;
+    }
+    
+    h6{
+        font-size: 0.5em;
+        margin-top: 1px;
+        margin-bottom: 70px;
+        color: gray;
+    }
+    
+    
+    footer{
+        display: flex;
+        margin-right:0.8% ;
+    }
+    footer p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.5em;
+        margin: 0;
+        color: gray;
+        font-weight: 100px;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+    footer h5{
+        margin: 0;
+        font-size: 0.5em;
+    }
+    
+    .img-text{
+        display: flex;
+        
+    }
+    
+    .img-text img{
+        display: flex;
+        width: 20%;
+        border-radius: 100%;
+        
+    }
+    
+    .text{
+        display: flex;
+        flex-direction: column;
+        font-size:0.5em ;
+        
+    }
+    
+    #icon{
+        display: flex;
+        align-self: flex-end;
+    }
+}
+
+@media (max-width: 234px){
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+    
+    .container{
+        margin: 0 auto;
+        border: 1px solid black;
+        width: 90%;
+        height: 120px;
+        display: flex;
+    }
+    .container .left-side{
+        display: flex;
+        background-image: url('images/Hand.jpg');
+        background-size: cover;
+        width: 140%;
+        margin: 1%
+        
+    }
+    
+    .right-side{
+        display: flex;
+        flex-direction: column;
+        margin: 0.2%;
+    }
+    
+    h1{
+        font-size: 0.5em;
+    }
+    
+    h6{
+        font-size: 0.1em;
+        margin-top: 3px;
+        margin-bottom: 25px;
+        color: gray;
+    }
+    
+    
+    footer{
+        display: flex;
+        margin-right:0.8% ;
+    }
+    footer p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.1em;
+        margin: 0;
+        color: gray;
+        font-weight: 100px;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+    footer h5{
+        margin: 0;
+        font-size: 5px;
+    }
+    
+    .img-text{
+        display: flex;
+        
+    }
+    
+    .img-text img{
+        display: flex;
+        width: 20%;
+        border-radius: 100%;
+        
+    }
+    
+    .text{
+        display: flex;
+        flex-direction: column;
+        font-size: 40px ;
+        
+    }
+    
+    #icon{
+        display: flex;
+        align-self: flex-end;
+    }
+}
